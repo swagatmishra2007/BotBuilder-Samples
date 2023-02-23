@@ -5,10 +5,10 @@ on:
     - main
 env:
   AZURE_WEBAPP_NAME: Echobotscaletest
-  AZURE_WEBAPP_PACKAGE_PATH: 02.echo-bot\published
+  AZURE_WEBAPP_PACKAGE_PATH: Botbuilder-samples/samples/csharp_dotnetcore/02.echo-bot/published
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 6.0.x
-  WORKING_DIRECTORY: 02.echo-bot
+  WORKING_DIRECTORY: Botbuilder-samples/samples/csharp_dotnetcore/02.echo-bot
 jobs:
   build:
     runs-on: windows-latest
