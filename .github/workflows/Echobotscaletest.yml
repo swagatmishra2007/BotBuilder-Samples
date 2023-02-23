@@ -2,7 +2,7 @@ name: Build and deploy .NET Core application to Web App Echobotscaletest
 on:
   push:
     branches:
-    - main
+    - dev
 env:
   AZURE_WEBAPP_NAME: Echobotscaletest
   AZURE_WEBAPP_PACKAGE_PATH: Botbuilder-samples/samples/csharp_dotnetcore/02.echo-bot/published
